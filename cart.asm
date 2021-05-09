@@ -133,16 +133,6 @@ rominit
         jmp enter_basic     ; call the stackcode we put in place earlier.
 
 
-!if 0 {
-.initmsg
-!tx "rgbi scart adapter test"
-!byte $0d
-!tx "(c) 2021 sven pook"
-!byte $0d
-!tx "cartified by bart van leeuwen"
-!byte $0d,0
-}
-
 .initmsg
 !tx "fromify 1.0"
 !byte $0d
